@@ -198,7 +198,7 @@ This ensures products are re-fetched whenever the search query changes.
   
 - NotFound Page
   
-- <img width="2240" height="1364" alt="NotFound Page" src="https://github.com/user-attachments/assets/486f3d93-3285-4467-abf2-d6292a9fafb3" />
+  <img width="2240" height="1364" alt="NotFound Page" src="https://github.com/user-attachments/assets/486f3d93-3285-4467-abf2-d6292a9fafb3" />
 
 ---
 
