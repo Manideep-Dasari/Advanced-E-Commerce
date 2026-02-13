@@ -1,4 +1,4 @@
-# 🛒 Advanced E-Commerce Frontend
+# 🛒 Advanced E-Commerce 
 
 A modern multi-page e-commerce frontend built using **React + Vite**, demonstrating product catalog management, shopping cart functionality, order processing, tracking system, and REST API integration using Axios.
 
@@ -103,7 +103,7 @@ ecommerce-project/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone <[your-repository-link](https://github.com/Manideep-Dasari/Advanced-E-Commerce.git)>
+git clone https://github.com/Manideep-Dasari/Advanced-E-Commerce.git
 cd ecommerce-project
 ```
 
@@ -138,7 +138,6 @@ Derived state such as:
 - Tax
 - Delivery cost
 - Total amount
-
 is calculated in real-time whenever cart changes.
 
 ---
@@ -159,12 +158,15 @@ Example API call implementation:
 ```javascript
 useEffect(() => {
   const getHomeData = async () => {
+    try {
       const urlPath = search 
         ? `/api/products?search=${encodeURIComponent(search)}`
         : '/api/products';
 
       const response = await axios.get(urlPath);
       setProducts(response.data);
+    } catch (error) {
+      console.error('Error fetching products:', error);
     }
   };
 
