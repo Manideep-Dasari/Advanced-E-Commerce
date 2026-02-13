@@ -180,17 +180,24 @@ This ensures products are re-fetched whenever the search query changes.
 
 ## 📸 Visual Documentation
 
-Include screenshots of:
-
 - Home Page
+  
  <img width="2240" height="1364" alt="Home Page" src="https://github.com/user-attachments/assets/9ce248c0-80d2-4e88-a891-3fb6ac54afd4" />
+ 
 - Checkout Page
+  
  <img width="2240" height="1400" alt="Checkout Page" src="https://github.com/user-attachments/assets/1e11ea17-5a91-49aa-8ee2-1f46c9d5823a" />
+ 
 - Orders Page
+  
   <img width="2240" height="1400" alt="Orders Page" src="https://github.com/user-attachments/assets/a6b81e32-e8d8-4c30-b0d7-80aff901e892" />
+  
 - Tracking Page
+  
   <img width="2240" height="1400" alt="Tracking Page" src="https://github.com/user-attachments/assets/b5533de4-ac28-4cec-8a24-945d2b75c34d" />
+  
 - NotFound Page
+  
 - <img width="2240" height="1364" alt="NotFound Page" src="https://github.com/user-attachments/assets/486f3d93-3285-4467-abf2-d6292a9fafb3" />
 
 ---
